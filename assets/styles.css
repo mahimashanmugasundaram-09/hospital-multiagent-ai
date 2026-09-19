@@ -1,0 +1,124 @@
+/* Hospital AI - Command Center Theme */
+
+.stApp {
+    background-color: #f4f7fb;
+}
+
+section[data-testid="stSidebar"] {
+    background-color: #0b3d66;
+}
+
+section[data-testid="stSidebar"] * {
+    color: #f4f7fb !important;
+}
+
+h1, h2, h3 {
+    color: #0b3d66;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.hai-header {
+    background: linear-gradient(90deg, #0b3d66 0%, #1668a5 100%);
+    padding: 28px 32px;
+    border-radius: 16px;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.hai-header h1 {
+    color: white;
+    margin: 0;
+    font-size: 30px;
+}
+
+.hai-header p {
+    color: #dbe9f7;
+    margin: 6px 0 0 0;
+    font-size: 15px;
+}
+
+.kpi-card {
+    background: white;
+    border-radius: 14px;
+    padding: 18px 20px;
+    box-shadow: 0 2px 8px rgba(11, 61, 102, 0.08);
+    border-left: 5px solid #1668a5;
+    text-align: center;
+}
+
+.kpi-value {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0b3d66;
+}
+
+.kpi-label {
+    font-size: 13px;
+    color: #5b7185;
+    margin-top: 4px;
+}
+
+.chief-panel {
+    background: linear-gradient(135deg, #0b3d66 0%, #1a5f9e 60%, #2478c4 100%);
+    border-radius: 18px;
+    padding: 28px;
+    color: white;
+    box-shadow: 0 6px 20px rgba(11, 61, 102, 0.25);
+    margin-bottom: 24px;
+}
+
+.chief-panel h2 {
+    color: #ffd166;
+    margin-top: 0;
+}
+
+.chief-badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 13px;
+    margin-right: 8px;
+    margin-bottom: 6px;
+}
+
+.agent-card {
+    background: white;
+    border-radius: 14px;
+    padding: 16px 18px;
+    box-shadow: 0 2px 8px rgba(11, 61, 102, 0.08);
+    border-top: 4px solid #1668a5;
+    margin-bottom: 14px;
+}
+
+.agent-card.chief {
+    border-top: 4px solid #ffd166;
+    background: #fff9ec;
+}
+
+.status-active {
+    color: #1a9e5c;
+    font-weight: 600;
+}
+
+.status-monitoring {
+    color: #d98c00;
+    font-weight: 600;
+}
+
+.safety-notice {
+    background: #fff4e5;
+    border-left: 5px solid #d98c00;
+    border-radius: 10px;
+    padding: 16px 20px;
+    color: #5b3d00;
+    margin-top: 24px;
+}
+
+.decision-card {
+    background: white;
+    border-radius: 14px;
+    padding: 20px;
+    border-left: 6px solid #d64545;
+    box-shadow: 0 2px 8px rgba(11, 61, 102, 0.08);
+}
